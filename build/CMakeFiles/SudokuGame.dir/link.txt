@@ -1,0 +1,3 @@
+C:\Strawberry\c\bin\cmake.exe -E rm -f CMakeFiles\SudokuGame.dir/objects.a
+C:\Strawberry\c\bin\ar.exe qc CMakeFiles\SudokuGame.dir/objects.a @CMakeFiles\SudokuGame.dir\objects1.rsp
+C:\Strawberry\c\bin\c++.exe -O3 -DNDEBUG -mwindows -Wl,--whole-archive CMakeFiles\SudokuGame.dir/objects.a -Wl,--no-whole-archive -o SudokuGame.exe -Wl,--out-implib,libSudokuGame.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SudokuGame.dir\linkLibs.rsp
